@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech.Droop | Achados Tech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="header">
+
+        <div class="logo-area">
+
+            <img src="img/logo.png.png" alt="Tech.Droop">
+
+            <div>
+                <h1>Tech.Droop</h1>
+                <p>Achados Tech</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- APRESENTAÇÃO -->
+
+    <section class="hero">
+
+        <span class="tag">🔥 ACHADOS DO DIA</span>
+
+        <h2>
+            Tecnologia boa<br>
+            <span>por um preço melhor.</span>
+        </h2>
+
+        <p>
+            Encontre produtos gamer, informática e eletrônicos
+            que realmente valem a pena.
+        </p>
+
+    </section>
+
+
+    <!-- PESQUISA -->
+
+    <section class="search-area">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔎 Procurar produto..."
+        >
+
+    </section>
+
+
+    <!-- CATEGORIAS -->
+
+    <section class="categories">
+
+        <button onclick="filtrarCategoria('todos')">
+            Todos
+        </button>
+
+        <button onclick="filtrarCategoria('gamer')">
+            🎮 Gamer
+        </button>
+
+        <button onclick="filtrarCategoria('informatica')">
+            💻 Informática
+        </button>
+
+        <button onclick="filtrarCategoria('eletronicos')">
+            📱 Eletrônicos
+        </button>
+
+    </section>
+
+
+    <!-- PRODUTOS -->
+
+    <main>
+
+        <section class="products">
+
+            <h2>🔥 Achados em destaque</h2>
+
+            <div id="product-list" class="product-list">
+
+                <!-- Os produtos serão colocados pelo JavaScript -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <h3>Tech.Droop</h3>
+
+        <p>
+            Achados em eletrônicos, jogos e informática.
+        </p>
+
+        <p class="disclaimer">
+            Alguns links podem ser links de afiliados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
